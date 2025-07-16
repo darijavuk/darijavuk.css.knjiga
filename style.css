@@ -6,7 +6,12 @@ html {
 }
 
 body {
-    background-color: #FAF0E6;
+    /* 
+    background-color: #FAF0E6; */
+    background-image: url("./background.jpg");
+    background-repeat: repeat-y;
+    background-size: 100px;
+    background-position: 100px 200px;
     color: rgb(53, 3, 3);
     font-family: "Roboto", sans-serif;
     font-style: normal;
