@@ -1,24 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Schoolbell&display=swap');
 
 body {
-    background-color: antiquewhite;
+    background-color: #FAF0E6;
+    color: rgb(53, 3, 3);
     font-family: "Roboto", sans-serif;
     font-style: normal;
+    font-size: 16px;
+    line-height: 140%;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .headings {
     font-style: 900;
     font-style: italic;
+    text-align: center;
+    color:#800000;
+    text-transform: uppercase;
 }
 
 p {
     font-size: normal;
     font-style: 100;
-    line-height: 200%;
+    text-align:justify;
+    text-indent: 3em;
+}
+
+strong {
+    background-color:rgb(53, 3, 3);
+    color: #e8d9d9;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 
 ul {
     font-size: normal;
     font-style: 100;
-    line-height: 200%;
 }
