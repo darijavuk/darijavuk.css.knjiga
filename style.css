@@ -11,7 +11,7 @@ body {
     background-image: url("./background.jpg");
     background-repeat: repeat-y;
     background-size: 100px;
-    background-position: 100px 200px;
+    background-position: 20px 0;
     color: rgb(53, 3, 3);
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -67,4 +67,17 @@ strong {
 ul {
     font-size: normal;
     font-style: 100;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 2px dotted black;
+    border-radius: 22px;
+    padding: 60px 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    box-sizing: border-box;
 }
